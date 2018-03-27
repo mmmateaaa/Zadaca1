@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/ivGHopper"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gracehopper" />
+
+    <TextView
+        android:id="@+id/tvGHopperName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivGHopper"
+        android:text="@string/gHopperName"/>
+
+    <TextView
+        android:id="@+id/tvGHopperBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivGHopper"
+        android:layout_below="@id/tvGHopperName"
+        android:text="@string/gHoperBirth" />
+
+    <TextView
+        android:id="@+id/tvGHopperDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivGHopper"
+        android:layout_below="@id/tvGHopperBirth"
+        android:text="@string/gHopperDesc" />
+
+</RelativeLayout>
