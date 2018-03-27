@@ -6,6 +6,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
         android:id="@+id/ivGHopper"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -13,6 +15,8 @@
         android:src="@drawable/gracehopper" />
 
     <TextView
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_horizontal"
         android:id="@+id/tvGHopperName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,6 +25,7 @@
 
     <TextView
         android:id="@+id/tvGHopperBirth"
+        android:layout_marginRight="@dimen/margin_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivGHopper"
@@ -29,10 +34,87 @@
 
     <TextView
         android:id="@+id/tvGHopperDesc"
+        android:layout_marginRight="@dimen/margin_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivGHopper"
         android:layout_below="@id/tvGHopperBirth"
         android:text="@string/gHopperDesc" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:id="@+id/ivJVNeumann"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/tvGHopperDesc"
+        android:src="@drawable/johnvonneumann" />
+
+    <TextView
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:id="@+id/tvJVNeumannName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivJVNeumann"
+        android:layout_below="@id/tvGHopperDesc"
+        android:text="@string/jVNeumannName"/>
+
+    <TextView
+        android:id="@+id/tvJVNeumannBirth"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivJVNeumann"
+        android:layout_below="@id/tvJVNeumannName"
+        android:text="@string/jVNeumannBirth" />
+
+    <TextView
+        android:id="@+id/tvJVNeumannDesc"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivJVNeumann"
+        android:layout_below="@id/tvJVNeumannBirth"
+        android:text="@string/jVNeumannDesc" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:id="@+id/ivATuring"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/tvJVNeumannDesc"
+        android:src="@drawable/alanturing" />
+
+    <TextView
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:id="@+id/tvATuringName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivATuring"
+        android:layout_below="@id/tvJVNeumannDesc"
+        android:text="@string/aTuringName"/>
+
+    <TextView
+        android:id="@+id/tvATuringBirth"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivATuring"
+        android:layout_below="@id/tvATuringName"
+        android:text="@string/aTuringBirth" />
+
+    <TextView
+        android:id="@+id/tvATuringDesc"
+        android:layout_marginRight="@dimen/margin_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivATuring"
+        android:layout_below="@id/tvATuringBirth"
+        android:text="@string/aTuringDesc" />
 
 </RelativeLayout>

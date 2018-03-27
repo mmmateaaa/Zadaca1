@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="image_width">70dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_horizontal">5dp</dimen>
 </resources>
