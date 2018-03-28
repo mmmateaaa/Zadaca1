@@ -7,7 +7,6 @@
 
     <ImageView
         android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginHorizontal="@dimen/margin_horizontal"
         android:id="@+id/ivGHopper"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -16,8 +15,8 @@
 
     <TextView
         android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginRight="@dimen/margin_horizontal"
         android:id="@+id/tvGHopperName"
+        android:textSize="@dimen/main_text_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivGHopper"
@@ -25,7 +24,7 @@
 
     <TextView
         android:id="@+id/tvGHopperBirth"
-        android:layout_marginRight="@dimen/margin_horizontal"
+        android:textSize="@dimen/main_text_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivGHopper"
@@ -34,16 +33,15 @@
 
     <TextView
         android:id="@+id/tvGHopperDesc"
-        android:layout_marginRight="@dimen/margin_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivGHopper"
         android:layout_below="@id/tvGHopperBirth"
-        android:text="@string/gHopperDesc" />
+        android:text="@string/gHopperDesc"
+        android:textSize="@dimen/desc_size"/>
 
     <ImageView
         android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginHorizontal="@dimen/margin_horizontal"
         android:id="@+id/ivJVNeumann"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -53,8 +51,8 @@
 
     <TextView
         android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginRight="@dimen/margin_horizontal"
         android:id="@+id/tvJVNeumannName"
+        android:textSize="@dimen/main_text_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivJVNeumann"
@@ -63,7 +61,7 @@
 
     <TextView
         android:id="@+id/tvJVNeumannBirth"
-        android:layout_marginRight="@dimen/margin_horizontal"
+        android:textSize="@dimen/main_text_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivJVNeumann"
@@ -72,16 +70,16 @@
 
     <TextView
         android:id="@+id/tvJVNeumannDesc"
-        android:layout_marginRight="@dimen/margin_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivJVNeumann"
         android:layout_below="@id/tvJVNeumannBirth"
+        android:textSize="@dimen/desc_size"
         android:text="@string/jVNeumannDesc" />
 
     <ImageView
         android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginRight="@dimen/margin_right"
         android:id="@+id/ivATuring"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -91,8 +89,8 @@
 
     <TextView
         android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginRight="@dimen/margin_horizontal"
         android:id="@+id/tvATuringName"
+        android:textSize="@dimen/main_text_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivATuring"
@@ -101,7 +99,7 @@
 
     <TextView
         android:id="@+id/tvATuringBirth"
-        android:layout_marginRight="@dimen/margin_horizontal"
+        android:textSize="@dimen/main_text_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivATuring"
@@ -110,11 +108,11 @@
 
     <TextView
         android:id="@+id/tvATuringDesc"
-        android:layout_marginRight="@dimen/margin_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ivATuring"
         android:layout_below="@id/tvATuringBirth"
+        android:textSize="@dimen/desc_size"
         android:text="@string/aTuringDesc" />
 
 </RelativeLayout>

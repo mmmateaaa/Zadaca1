@@ -3,7 +3,8 @@
     <string name="showPersons">Show Persons</string>
     <string name="gHopperName">Grace Hopper</string>
     <string name="gHoperBirth">December 9, 1906 – January 1, 1992</string>
-    <string name="gHopperDesc">Grace Murray Hopper was an American computer scientist and United States Navy rear admiral. She was one of the first programmers of the Harvard Mark I computer in 1944, and invented the first compiler for a computer programming language, and the one of those who popularized the idea of machine-independent programming languages, which led to the development of COBOL, one of the first high-level programming languages.</string>
+    <string name="gHopperDesc">Grace Murray Hopper was an American computer scientist and United States Navy rear admiral.
+        She was one of the first programmers of the Harvard Mark I computer in 1944, and invented the first compiler for a computer programming language, and the one of those who popularized the idea of machine-independent programming languages, which led to the development of COBOL, one of the first high-level programming languages.</string>
     <string name="jVNeumannName">John Von Neumann</string>
     <string name="jVNeumannBirth">Died at 54 (1903-1957)</string>
     <string name="jVNeumannDesc">Wrote a paper on the idea that programs should be stored in memory along with the data. Previous to this, programs were \"hardwired\" into the architecture of the computer. This became known as the von Neumann architecture and is the basis for virtually all modern computers.</string>
