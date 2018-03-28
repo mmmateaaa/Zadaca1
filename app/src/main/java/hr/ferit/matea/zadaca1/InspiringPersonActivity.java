@@ -1,5 +1,7 @@
 package hr.ferit.matea.zadaca1;
 
+import android.annotation.SuppressLint;
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,18 +29,20 @@ public class InspiringPersonActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
+    @SuppressLint("ResourceType")
     @OnClick({R.id.ivGHopper, R.id.ivJVNeumann, R.id.ivATuring})
     public void showMessage(View view) {
         String message = "";
+        Resources r = this.getResources();
         switch (view.getId()) {
             case R.id.ivGHopper:
-                message = "The most damaging phrase in the language is: 'It's always been done that way.'";
+                message = r.getString(R.string.gHopperQuote);
                 break;
             case R.id.ivJVNeumann:
-                message = "Neumann";
+                message = r.getString(R.string.jVNeumannQuote);
                 break;
             case R.id.ivATuring:
-                message = "Turing";
+                message = r.getString(R.string.aTuringQuote);
                 break;
         }
 

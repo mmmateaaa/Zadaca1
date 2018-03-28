@@ -11,4 +11,7 @@
     <string name="aTuringName">Alan Turing</string>
     <string name="aTuringBirth">Died at 42 (1912-1954)</string>
     <string name="aTuringDesc">Alan Mathison Turing, OBE, FRS was a British pioneering computer scientist, mathematician, logician, cryptanalyst, philosopher, mathematical biologist, and marathon and ultra distance runner. He was highly influential in the development of computer science, providing a formalisation of the concepts of \"algorithm\" and \"computation\" with the Turing machine, which can be considered a model of a general purpose computer.</string>
+    <string name="gHopperQuote">The most damaging phrase in the language is: It is always been done that way.</string>
+    <string name="jVNeumannQuote">If people do not belive that mathematics is simple, it is only because they do not realize how complicated life is.</string>
+    <string name="aTuringQuote">Sometimes it is people no one imagines anything of who do the things that no-one can imagine.</string>
 </resources>
