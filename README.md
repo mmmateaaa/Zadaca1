@@ -4,7 +4,7 @@ Homework that refer to the lab 1 (RMA)
 ### The assignment and problems encountered
 On my first homework application I figured that on the first screen would be a button that will open a list of Computer engineers when someone clicks. As a result, my default Main Activity contains only one button which has a method that on someone's click open a new InspiringPerson Activity. Starting one Activity from another is possible using Intent, and on that way I did my button works.
 
-InspiringPerson Activity was created additionally by me. In my activity_inspiring_person.xml layout, for each person, I used ImageView and three TextViews. My strings, styles, dimensions, etc. I defined in .xml files that are located in values folder. In my InspiringPersonActivity.java class, I created and calling a method for showing Toast message. My Toast message is a String which is caught from string.xml file by using setString() method.
+InspiringPerson Activity was created additionally by me. In my activity_inspiring_person.xml layout, for each person, I used ImageView and three TextViews. My strings, styles, dimensions, etc. I defined in .xml files that are located in values folder. In my InspiringPersonActivity.java class, I created and calling a method for showing Toast message. My Toast message is a String which is caught from string.xml file by using getString() method.
 
 ### Utilised snippets/solutions/libraries/SO answers
 [Main help (Loomen)](https://loomen.carnet.hr/pluginfile.php/768221/mod_resource/content/1/LV1%20-%20predlo%C5%BEak%20%282017%29.pdf) <br/>
